@@ -170,28 +170,28 @@ fn main() -> ExitCode {
  //             .status()
  //             .expect("failed to execute TMPAssetConverter.py");
 
-        assert!(status.success());
+ //        assert!(status.success());
 
-        let mut font_path = format!("assets/vanilla/{}/{}-{}-fonts/msgothic_2.dat", &chapter, &system, &unity);
-        if ! Path::new(&font_path).exists() {
-            font_path = format!("assets/vanilla/{}/msgothic_2.dat", &chapter);
-        }
+  //       let mut font_path = format!("assets/vanilla/{}/{}-{}-fonts/msgothic_2.dat", &chapter, &system, &unity);
+ //        if ! Path::new(&font_path).exists() {
+  //           font_path = format!("assets/vanilla/{}/msgothic_2.dat", &chapter);
+  //       }
 
-        let status = Command::new("python")
-            .env("PYTHONIOENCODING", "utf-8")
-            .arg("scripts/TMPAssetConverter.py")
-            .arg("assets/fonts/msgothic_2 SDF Atlas_Texture2D.dat")
-            .arg("assets/fonts/msgothic_2 SDF_TextMeshProFont.dat")
-            .arg(font_path)
-            .arg(&directory_assets)
-            .arg(&unity_ver_str)
-            .status()
-            .expect("failed to execute TMPAssetConverter.py");
+ //        let status = Command::new("python")
+ //            .env("PYTHONIOENCODING", "utf-8")
+  //           .arg("scripts/TMPAssetConverter.py")
+ //            .arg("assets/fonts/msgothic_2 SDF Atlas_Texture2D.dat")
+  //           .arg("assets/fonts/msgothic_2 SDF_TextMeshProFont.dat")
+  //           .arg(font_path)
+  //           .arg(&directory_assets)
+  //           .arg(&unity_ver_str)
+   //          .status()
+   //          .expect("failed to execute TMPAssetConverter.py");
+ //
+ //        assert!(status.success());
 
-        assert!(status.success());
-
-        println!();
-    }
+  //       println!();
+  //   }
 
     // 4. copy assets
     copy_files(assets_containing_folder.as_ref(), &directory_data);
