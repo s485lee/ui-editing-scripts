@@ -146,52 +146,52 @@ fn main() -> ExitCode {
 
     // 3. fonts - NOTE: Only applied for chapters 1-8. Fonts for Rei (Ch.9) and Hou Plus (Ch.10) will need to be generated manually
     // and saved in the files-rei and files-hou-plus folders.
- //   if arc_number.clone() < 9 {
- //       let mut font_path = format!("assets/vanilla/{}/{}-{}-fonts/msgothic_0.dat", &chapter, &system, &unity);
- //       if ! Path::new(&font_path).exists() {
- //           font_path = format!("assets/vanilla/{}/msgothic_0.dat", &chapter);
- //       }
- // 
- //       let unity_ver_str = match arc_number {
- //           1..=7 => "5",
- //             8     => "2017",
- //             9     => "2019",
- //             _     => panic!("Couldn't identify version for arc {}", arc_number),
- //         };
+    if arc_number.clone() < 9 {
+        let mut font_path = format!("assets/vanilla/{}/{}-{}-fonts/msgothic_0.dat", &chapter, &system, &unity);
+        if ! Path::new(&font_path).exists() {
+            font_path = format!("assets/vanilla/{}/msgothic_0.dat", &chapter);
+        }
 
- //         let status = Command::new("python")
-  //            .env("PYTHONIOENCODING", "utf-8")
- //             .arg("scripts/TMPAssetConverter.py")
- //             .arg("assets/fonts/msgothic_0 SDF Atlas_Texture2D.dat")
- //             .arg("assets/fonts/msgothic_0 SDF_TextMeshProFont.dat")
- //             .arg(font_path)
- //             .arg(&directory_assets)
- //             .arg(&unity_ver_str)
- //             .status()
- //             .expect("failed to execute TMPAssetConverter.py");
+        let unity_ver_str = match arc_number {
+            1..=7 => "5",
+            8     => "2017",
+            9     => "2019",
+            _     => panic!("Couldn't identify version for arc {}", arc_number),
+        };
 
- //        assert!(status.success());
+        let status = Command::new("python")
+            .env("PYTHONIOENCODING", "utf-8")
+            .arg("scripts/TMPAssetConverter.py")
+            .arg("assets/fonts/msgothic_0 SDF Atlas_Texture2D.dat")
+            .arg("assets/fonts/msgothic_0 SDF_TextMeshProFont.dat")
+            .arg(font_path)
+            .arg(&directory_assets)
+            .arg(&unity_ver_str)
+            .status()
+            .expect("failed to execute TMPAssetConverter.py");
 
-  //       let mut font_path = format!("assets/vanilla/{}/{}-{}-fonts/msgothic_2.dat", &chapter, &system, &unity);
- //        if ! Path::new(&font_path).exists() {
-  //           font_path = format!("assets/vanilla/{}/msgothic_2.dat", &chapter);
-  //       }
+        assert!(status.success());
 
- //        let status = Command::new("python")
- //            .env("PYTHONIOENCODING", "utf-8")
-  //           .arg("scripts/TMPAssetConverter.py")
- //            .arg("assets/fonts/msgothic_2 SDF Atlas_Texture2D.dat")
-  //           .arg("assets/fonts/msgothic_2 SDF_TextMeshProFont.dat")
-  //           .arg(font_path)
-  //           .arg(&directory_assets)
-  //           .arg(&unity_ver_str)
-   //          .status()
-   //          .expect("failed to execute TMPAssetConverter.py");
- //
- //        assert!(status.success());
+        let mut font_path = format!("assets/vanilla/{}/{}-{}-fonts/msgothic_2.dat", &chapter, &system, &unity);
+        if ! Path::new(&font_path).exists() {
+            font_path = format!("assets/vanilla/{}/msgothic_2.dat", &chapter);
+        }
 
-  //       println!();
-  //   }
+        let status = Command::new("python")
+            .env("PYTHONIOENCODING", "utf-8")
+            .arg("scripts/TMPAssetConverter.py")
+            .arg("assets/fonts/msgothic_2 SDF Atlas_Texture2D.dat")
+            .arg("assets/fonts/msgothic_2 SDF_TextMeshProFont.dat")
+            .arg(font_path)
+            .arg(&directory_assets)
+            .arg(&unity_ver_str)
+            .status()
+            .expect("failed to execute TMPAssetConverter.py");
+
+        assert!(status.success());
+
+        println!();
+    }
 
     // 4. copy assets
     copy_files(assets_containing_folder.as_ref(), &directory_data);
