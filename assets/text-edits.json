@@ -426,7 +426,7 @@
         "NewJapanese": "綿流し編　１２日目２"
     },
     {
-        "CurrentEnglish": "Watanagashi Day 12-3",
+        "CurrentEnglish": "Watanagashi 12-3",
         "CurrentJapanese": "綿流し編　１２日目３",
         "NewEnglish": "와타나가시 12일째 3",
         "NewJapanese": "綿流し編　１２日目３"
@@ -1108,5 +1108,17 @@
         "CurrentJapanese": "祟殺し編　エピローグ１",
         "NewEnglish": "타타리고로시 에필로그 1",
         "NewJapanese": "祟殺し編　エピローグ１"
+    },
+    {
+        "CurrentEnglish": "Watanagashi Epilogue 2",
+        "CurrentJapanese": "綿流し編　エピローグ２",
+        "NewEnglish": "와타나가시 에필로그 2",
+        "NewJapanese": "綿流し編　エピローグ２"
+    },
+    {
+        "CurrentEnglish": "Watanagashi Epilogue 1",
+        "CurrentJapanese": "綿流し編　エピローグ１",
+        "NewEnglish": "와타나가시 에필로그 1",
+        "NewJapanese": "綿流し編　エピローグ１"
     }
 ]
