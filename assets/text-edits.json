@@ -1230,12 +1230,6 @@
         "NewJapanese": "停止"
     },
     {
-        "CurrentEnglish": "Play",
-        "CurrentJapanese": "演奏",
-        "NewEnglish": "재생",
-        "NewJapanese": "演奏"
-    },
-    {
         "CurrentEnglish": "Kamikashimashi",
         "CurrentJapanese": "神姦し編",
         "NewEnglish": "카미카시마시 편",
@@ -1246,11 +1240,5 @@
         "CurrentJapanese": "音楽室",
         "NewEnglish": "뮤직룸",
         "NewJapanese": "音楽室"
-    },
-    {
-        "CurrentEnglish": "Return",
-        "CurrentJapanese": "戻る",
-        "NewEnglish": "돌아가기",
-        "NewJapanese": "戻る"
     }
 ]
