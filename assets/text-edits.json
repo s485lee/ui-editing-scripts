@@ -1246,5 +1246,11 @@
         "CurrentJapanese": "音楽室",
         "NewEnglish": "뮤직룸",
         "NewJapanese": "音楽室"
+    },
+    {
+        "CurrentEnglish": "Return",
+        "CurrentJapanese": "戻る",
+        "NewEnglish": "돌아가기",
+        "NewJapanese": "戻る"
     }
 ]
