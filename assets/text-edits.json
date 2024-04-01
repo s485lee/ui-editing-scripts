@@ -30,6 +30,12 @@
         "NewJapanese": "戻る"
     },
     {
+        "CurrentEnglish": "Matsuribayashi",
+        "CurrentJapanese": "祭囃し編",
+        "NewEnglish": "마츠리바야시 편",
+        "NewJapanese": "祭囃し編"
+    },
+    {
         "CurrentEnglish": "Matsuribayashi 1",
         "CurrentJapanese": "祭囃し編　１",
         "NewEnglish": "마츠리바야시 1",
@@ -222,6 +228,12 @@
         "NewJapanese": "お疲れさま会"
     },
     {
+        "CurrentEnglish": "Onikakushi",
+        "CurrentJapanese": "鬼隠し編",
+        "NewEnglish": "오니카쿠시 편",
+        "NewJapanese": "鬼隠し編"
+    },
+    {
         "CurrentEnglish": "Onikakushi Day 1",
         "CurrentJapanese": "鬼隠し編１日目",
         "NewEnglish": "오니카쿠시 1일째",
@@ -316,6 +328,12 @@
         "CurrentJapanese": "鬼隠し編１５日目３",
         "NewEnglish": "오니카쿠시 15일째 3",
         "NewJapanese": "鬼隠し編１５日目３"
+    },
+    {
+        "CurrentEnglish": "Watanagashi",
+        "CurrentJapanese": "綿流し編",
+        "NewEnglish": "와타나가시 편",
+        "NewJapanese": "綿流し編"
     },
     {
         "CurrentEnglish": "Watanagashi Day 1",
@@ -438,6 +456,12 @@
         "NewJapanese": "祟殺し編　１日目"
     },
     {
+        "CurrentEnglish": "Tatarigoroshi",
+        "CurrentJapanese": "祟殺し編",
+        "NewEnglish": "타타리고로시 편",
+        "NewJapanese": "祟殺し編"
+    },
+    {
         "CurrentEnglish": "Tatarigoroshi Day 2",
         "CurrentJapanese": "祟殺し編　２日目",
         "NewEnglish": "타타리고로시 2일째",
@@ -552,6 +576,12 @@
         "NewJapanese": "祟殺し編　１４日目"
     },
     {
+        "CurrentEnglish": "Himatsubushi",
+        "CurrentJapanese": "暇潰し編",
+        "NewEnglish": "히마츠부시 편",
+        "NewJapanese": "暇潰し編"
+    },
+    {
         "CurrentEnglish": "Himatsubushi Day 1",
         "CurrentJapanese": "暇潰し編　１日目",
         "NewEnglish": "히마츠부시 1일째",
@@ -610,6 +640,12 @@
         "CurrentJapanese": "暇潰し編　４日目",
         "NewEnglish": "히마츠부시 4일째",
         "NewJapanese": "暇潰し編　４日目"
+    },
+    {
+        "CurrentEnglish": "Meakashi",
+        "CurrentJapanese": "目明し編",
+        "NewEnglish": "메아카시 편",
+        "NewJapanese": "目明し編"
     },
     {
         "CurrentEnglish": "Meakashi Day 1",
@@ -754,6 +790,12 @@
         "CurrentJapanese": "目明し編　２４日目",
         "NewEnglish": "메아카시 24일째",
         "NewJapanese": "目明し編　２４日目"
+    },
+    {
+        "CurrentEnglish": "Tsumihoroboshi",
+        "CurrentJapanese": "罪滅し編",
+        "NewEnglish": "츠미호로보시 편",
+        "NewJapanese": "罪滅し編"
     },
     {
         "CurrentEnglish": "Tsumihoroboshi Day 1",
@@ -910,6 +952,12 @@
         "CurrentJapanese": "罪滅し編　２６日目",
         "NewEnglish": "츠미호로보시 26일째",
         "NewJapanese": "罪滅し編　２６日目"
+    },
+    {
+        "CurrentEnglish": "Minagoroshi",
+        "CurrentJapanese": "皆殺し編",
+        "NewEnglish": "미나고로시 편",
+        "NewJapanese": "皆殺し編"
     },
     {
         "CurrentEnglish": "Minagoroshi Day 1",
@@ -1120,5 +1168,83 @@
         "CurrentJapanese": "綿流し編　エピローグ１",
         "NewEnglish": "와타나가시 에필로그 1",
         "NewJapanese": "綿流し編　エピローグ１"
+    },
+    {
+        "CurrentEnglish": "2022 After Party",
+        "CurrentJapanese": "お疲れさま会 2022",
+        "NewEnglish": "출연자 논평회 2022",
+        "NewJapanese": "お疲れさま会 2022"
+    },
+    {
+        "CurrentEnglish": "Yes",
+        "CurrentJapanese": "はい",
+        "NewEnglish": "예",
+        "NewJapanese": "はい"
+    }
+    {
+        "CurrentEnglish": "Scenario Unlock",
+        "CurrentJapanese": "シナリオロック",
+        "NewEnglish": "시나리오 언락",
+        "NewJapanese": "シナリオロック"
+    },
+    {
+        "CurrentEnglish": "Back",
+        "CurrentJapanese": "EXIT",
+        "NewEnglish": "나가기",
+        "NewJapanese": "EXIT"
+    },
+    {
+        "CurrentEnglish": "Watanagashi Epilogue 1",
+        "CurrentJapanese": "綿流し編　エピローグ１",
+        "NewEnglish": "와타나가시 에필로그 1",
+        "NewJapanese": "綿流し編　エピローグ１"
+    },
+    {
+        "CurrentEnglish": "Watanagashi Epilogue 1",
+        "CurrentJapanese": "綿流し編　エピローグ１",
+        "NewEnglish": "와타나가시 에필로그 1",
+        "NewJapanese": "綿流し編　エピローグ１"
+    },
+    {
+        "CurrentEnglish": "Watanagashi Epilogue 1",
+        "CurrentJapanese": "綿流し編　エピローグ１",
+        "NewEnglish": "와타나가시 에필로그 1",
+        "NewJapanese": "綿流し編　エピローグ１"
+    },
+    {
+        "CurrentEnglish": "Saikoroshi",
+        "CurrentJapanese": "賽殺し編",
+        "NewEnglish": "사이코로시 편",
+        "NewJapanese": "賽殺し編"
+    },
+    {
+        "CurrentEnglish": "Secret Staff Room",
+        "CurrentJapanese": "裏スタッフルーム",
+        "NewEnglish": "뒷 스태프룸",
+        "NewJapanese": "裏スタッフルーム"
+    },
+    {
+        "CurrentEnglish": "Stop",
+        "CurrentJapanese": "停止",
+        "NewEnglish": "정지",
+        "NewJapanese": "停止"
+    },
+    {
+        "CurrentEnglish": "Play",
+        "CurrentJapanese": "演奏",
+        "NewEnglish": "재생",
+        "NewJapanese": "演奏"
+    },
+    {
+        "CurrentEnglish": "Kamikashimashi",
+        "CurrentJapanese": "神姦し編",
+        "NewEnglish": "카미카시마시 편",
+        "NewJapanese": "神姦し編"
+    },
+    {
+        "CurrentEnglish": "Music Room",
+        "CurrentJapanese": "音楽室",
+        "NewEnglish": "뮤직룸",
+        "NewJapanese": "音楽室"
     }
 ]
