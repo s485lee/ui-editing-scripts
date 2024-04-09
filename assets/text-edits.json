@@ -1218,9 +1218,27 @@
         "NewJapanese": "神姦し編"
     },
     {
+        "CurrentEnglish": "Play",
+        "CurrentJapanese": "演奏",
+        "NewEnglish": "재생",
+        "NewJapanese": "演奏"
+    },
+    {
         "CurrentEnglish": "Music Room",
         "CurrentJapanese": "音楽室",
         "NewEnglish": "뮤직룸",
         "NewJapanese": "音楽室"
+    },
+    {
+        "CurrentEnglish": "Return",
+        "CurrentJapanese": "戻る",
+        "NewEnglish": "뒤로",
+        "NewJapanese": "戻る"
+    },
+    {
+        "CurrentEnglish": "Repeat",
+        "CurrentJapanese": "1由リピート",
+        "NewEnglish": "반복",
+        "NewJapanese": "1由リピート"
     }
 ]
