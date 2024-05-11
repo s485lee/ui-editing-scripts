@@ -7,3 +7,6 @@ lastModified.json
 7za.dll
 7za.exe
 7zxa.dll
+.DS_Store
+assets/.DS_Store
+assets/fonts/.DS_Store
