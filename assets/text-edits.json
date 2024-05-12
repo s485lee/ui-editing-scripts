@@ -1240,5 +1240,53 @@
         "CurrentJapanese": "1由リピート",
         "NewEnglish": "반복",
         "NewJapanese": "1由リピート"
+    },
+    {
+        "CurrentEnglish": "Updated",
+        "CurrentJapanese": "新規",
+        "NewEnglish": "리메이크",
+        "NewJapanese": "リメーク"
+    },
+    {
+        "CurrentEnglish": "Original",
+        "CurrentJapanese": "オリジナル",
+        "NewEnglish": "콘솔",
+        "NewJapanese": "ゲーム機"
+    },
+    {
+        "CurrentEnglish": "Standard 640x480",
+        "CurrentJapanese": "標準 640x480",
+        "NewEnglish": "표준 1280x720",
+        "NewJapanese": "標準 1280x720"
+    },
+    {
+        "CurrentEnglish": "800x600",
+        "CurrentJapanese": "800x600",
+        "NewEnglish": "1920x1080",
+        "NewJapanese": "1920x1080"
+    },
+    {
+        "CurrentEnglish": "1024x768",
+        "CurrentJapanese": "1024x768",
+        "NewEnglish": "2560x1440",
+        "NewJapanese": "2560x1440"
+    },
+    {
+        "CurrentEnglish": "Fullscreen",
+        "CurrentJapanese": "フルスクリーン",
+        "NewEnglish": "전체화면",
+        "NewJapanese": "フルスクリーン"
+    },
+    {
+        "CurrentEnglish": "Show Menu",
+        "CurrentJapanese": "メニュー表示",
+        "NewEnglish": "메뉴 표시",
+        "NewJapanese": "メニュー表示"
+    },
+    {
+        "CurrentEnglish": "Hide Window",
+        "CurrentJapanese": "ウィンドウ非表示",
+        "NewEnglish": "텍스트창 숨기기",
+        "NewJapanese": "ウィンドウ非表示"
     }
 ]
