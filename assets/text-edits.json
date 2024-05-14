@@ -1254,6 +1254,18 @@
         "NewJapanese": "ゲーム機"
     },
     {
+        "CurrentEnglish": "Remake",
+        "CurrentJapanese": "リメーク",
+        "NewEnglish": "리메이크",
+        "NewJapanese": "リメーク"
+    },
+    {
+        "CurrentEnglish": "Console",
+        "CurrentJapanese": "ゲーム機",
+        "NewEnglish": "콘솔",
+        "NewJapanese": "ゲーム機"
+    },
+    {
         "CurrentEnglish": "Standard 640x480",
         "CurrentJapanese": "標準 640x480",
         "NewEnglish": "표준 1280x720",
