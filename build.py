@@ -378,13 +378,14 @@ call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 # Download and extract the vanilla assets
 assets_path = "assets"
 vanilla_archive = "vanilla.7z"
-assets_url = "http://07th-mod.com/archive/vanilla.7z"
+assets_url = f"https://github.com/07th-mod/patch-releases/releases/download/developer-v1.0/{vanilla_archive}"
 vanilla_folder_path = os.path.join(assets_path, "vanilla")
 vanilla_fully_extracted = os.path.exists(vanilla_folder_path) and not os.path.exists(vanilla_archive)
 if lastModifiedManager.isRemoteModifiedAndUpdateMemory(assets_url) or force_download or not vanilla_fully_extracted:
     print("Downloading and Extracting Vanilla assets")
     pathlib.Path(vanilla_archive).unlink(missing_ok=True)
     if os.path.exists(vanilla_folder_path):
+        print("Attempting to remove old vanilla folder...")
         shutil.rmtree(vanilla_folder_path)
 
     download(assets_url)
@@ -399,7 +400,7 @@ else:
 # Download and extract UABE
 uabe_folder = "64bit"
 uabe_archive = "AssetsBundleExtractor_2.2stabled_64bit_with_VC2010.zip"
-uabe_url = f"http://07th-mod.com/archive/{uabe_archive}"
+uabe_url = f"https://github.com/07th-mod/patch-releases/releases/download/developer-v1.0/{uabe_archive}"
 uabe_fully_extracted = os.path.exists(uabe_folder) and not os.path.exists(uabe_archive)
 if lastModifiedManager.isRemoteModifiedAndUpdateMemory(uabe_url) or force_download or not uabe_fully_extracted:
     print("Downloading and Extracting UABE")
@@ -434,6 +435,8 @@ try:
     working_cargo = True
 except:
     print("No working Rust/cargo found - download binary release of UI compiler...")
+    if os.path.exists('ui-compiler.exe'):
+        os.remove('ui-compiler.exe')
     download(
         "https://github.com/07th-mod/ui-editing-scripts/releases/latest/download/ui-compiler.exe"
     )
